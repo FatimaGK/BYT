@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="727.0" style="-fx-background-color: #CD6155;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tester">
+   <children>
+      <AnchorPane layoutX="78.0" layoutY="46.0" prefHeight="547.0" prefWidth="571.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="display" layoutX="81.0" layoutY="24.0" prefHeight="59.0" prefWidth="408.0" promptText="Entered numbers and operation will be displayed here" style="-fx-background-color: #D5F5E3;" />
+            <Button fx:id="three" layoutX="430.0" layoutY="132.0" mnemonicParsing="false" onAction="#Button3" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="3" />
+            <Button fx:id="two" layoutX="304.0" layoutY="133.0" mnemonicParsing="false" onAction="#Button2" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="2" />
+            <Button fx:id="one" layoutX="181.0" layoutY="133.0" mnemonicParsing="false" onAction="#Button1" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="1" />
+            <Button fx:id="addition" layoutX="58.0" layoutY="133.0" mnemonicParsing="false" onAction="#ButtonAdd" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="+" />
+            <Button fx:id="six" layoutX="430.0" layoutY="221.0" mnemonicParsing="false" onAction="#Button6" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="6" />
+            <Button fx:id="night" layoutX="430.0" layoutY="318.0" mnemonicParsing="false" onAction="#Button9" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="9" />
+            <Button fx:id="c" layoutX="436.0" layoutY="405.0" mnemonicParsing="false" onAction="#ButtonC" onDragDetected="#ButtonC" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="C" />
+            <Button fx:id="five" layoutX="304.0" layoutY="221.0" mnemonicParsing="false" onAction="#Button5" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="5" />
+            <Button fx:id="eight" layoutX="307.0" layoutY="318.0" mnemonicParsing="false" onAction="#Button8" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="8" />
+            <Button fx:id="zero" layoutX="307.0" layoutY="405.0" mnemonicParsing="false" onAction="#Button0" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="0" />
+            <Button fx:id="four" layoutX="181.0" layoutY="221.0" mnemonicParsing="false" onAction="#Button4" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="4" />
+            <Button fx:id="seven" layoutX="181.0" layoutY="318.0" mnemonicParsing="false" onAction="#Button7" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="7" />
+            <Button fx:id="dot" layoutX="181.0" layoutY="405.0" mnemonicParsing="false" onAction="#ButtonDot" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="." />
+            <Button fx:id="subtraction" layoutX="58.0" layoutY="221.0" mnemonicParsing="false" onAction="#ButtonSub" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="_" />
+            <Button fx:id="multiplication" layoutX="58.0" layoutY="318.0" mnemonicParsing="false" onAction="#ButtonMul" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="*" />
+            <Button fx:id="division" layoutX="58.0" layoutY="405.0" mnemonicParsing="false" onAction="#ButtonDiv" prefHeight="60.0" prefWidth="82.0" style="-fx-background-color: #7DCEA0;" text="/" />
+            <Button fx:id="isEqualTo" layoutX="222.0" layoutY="487.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: #9A7D0A;" text="=">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
